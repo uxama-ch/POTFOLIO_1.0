@@ -1,0 +1,190 @@
+body{
+    font-family: 'Montserrat-black';
+    
+    
+}
+#title{
+
+    background-color: #ff4c68;
+    color: aliceblue;
+  
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    
+    
+}
+.title-img{
+
+    transform: rotate(25deg);
+    width: 70%;
+    padding-left: 100px;
+    filter: drop-shadow(30px 1px 0px #ad505e);
+    position: relative;
+   
+
+}
+.container-fluid{
+
+    padding: 3% 13%;
+}
+.navbar-brand{
+
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+
+    font-size: 25px;
+    padding-right: 10px;
+}
+.down-button{
+
+    margin: 5% 5% 0% 3%;
+}
+p{
+    color: #8f8f8f;
+}
+
+h3 {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+.feature-icon{
+
+ 
+    color: #ef8172;
+    padding-bottom: 1.5rem;
+}
+.feature-icon:hover {
+
+    color: #ff4c68;
+}
+#features{
+
+   padding: 7% 15%;
+   background-color: aliceblue;
+   position: relative;
+   z-index: 1;
+   
+
+}
+.feature-box{
+
+    text-align: center;
+}
+
+h2 {
+
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color:#ffff;
+}
+
+#testimonials{
+
+    background-color: #ef8172;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.testimonial-img{
+
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-item{
+
+    padding: 7% 15%;
+}
+
+#press{
+
+    background-color: #ef8172;
+    text-align: center;
+}
+.press-img{
+
+    width: 10%;
+    padding: 20px 20px 50px;
+    
+}
+#pricing{
+
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+
+    padding: 3% 5%;
+}
+.price{
+    color:black;
+}
+
+
+
+#cta{
+
+    background-color:#ff4c68;
+    text-align: center;
+    color: #ffff;
+    padding: 50px;
+
+
+}
+
+#footer{
+
+    background-color: #ffff;
+    text-align: center;
+}
+.footer-brands{
+    padding: 50px 5px 20px;
+   
+} 
+.footer-brands:hover{
+
+color: #ff4c68;
+
+}
+/* native */
+
+@media (max-width:990px){
+
+    .title-img{
+
+        position: static;
+        transform: rotate(0deg);
+        /* width: 100px; */
+        padding-top: 50px;
+    }
+
+
+#title{
+
+    text-align: center;
+    /* color: aqua; */
+}
+
+.press-img{
+
+    width: 15%;
+    padding: 20px 20px 50px;
+    
+}
+
+
+}
